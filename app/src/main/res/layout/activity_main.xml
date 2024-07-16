@@ -106,32 +106,19 @@
             app:layout_constraintStart_toStartOf="@id/et_password"
             app:layout_constraintTop_toBottomOf="@id/et_password">
 
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:id="@+id/btn_log_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="#686161"
                 android:padding="16dp"
                 android:text="Войти"
+                android:background="@drawable/btn_gray"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_log_in_orange"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
-                android:layout_marginTop="20dp"
-                android:backgroundTint="#FF9800"
-                android:padding="16dp"
-                android:text="Войти"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:visibility="invisible" />
 
         </FrameLayout>
 
